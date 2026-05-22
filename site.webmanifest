@@ -1,0 +1,19 @@
+{
+  "name": "Nivin Xavier",
+  "short_name": "Nivin Xavier",
+  "description": "Serial entrepreneur and digital marketing consultant based in Halifax, Canada. Founder of CGEC Canada, Omni Vue AI, and Atlantic Blinds.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#080808",
+  "theme_color": "#c9a96e",
+  "orientation": "any",
+  "lang": "en-CA",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
