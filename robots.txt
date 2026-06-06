@@ -1,433 +1,60 @@
 # robots.txt for unlittered.com
-# Nivin Xavier Personal Brand Website
-# Updated: 2025
-# Intent: Allow all legitimate search engines and AI/generative crawlers.
-#         Block Internet Archive, Wayback Machine, and Heritrix crawlers explicitly.
+# Personal brand of Nivin Xavier
 
-# ============================================================
-# BLOCK: INTERNET ARCHIVE, WAYBACK MACHINE, HERITRIX
-# Listed with multiple case and version variants because
-# real-world implementations vary in case-sensitivity.
-# ============================================================
+# Default: open to all well-behaved crawlers
+User-agent: *
+Allow: /
 
-User-agent: ia_archiver
-Disallow: /
-
-User-agent: ia_archiver/1.6
-Disallow: /
-
-User-agent: ia_archiver-web.archive.org
-Disallow: /
-
-User-agent: ia_archiver/web.archive.org
-Disallow: /
-
-User-agent: archive.org_bot
-Disallow: /
-
-User-agent: archive.org
-Disallow: /
-
-User-agent: Archive.org
-Disallow: /
-
-User-agent: wayback
-Disallow: /
-
-User-agent: Wayback
-Disallow: /
-
-User-agent: WaybackMachine
-Disallow: /
-
-User-agent: wayback-machine
-Disallow: /
-
-User-agent: WaybackMachineLiveRecorder
-Disallow: /
-
-User-agent: WaybackMachineLiveRecorder/1.0
-Disallow: /
-
-User-agent: heritrix
-Disallow: /
-
-User-agent: Heritrix
-Disallow: /
-
-User-agent: heritrix/1
-Disallow: /
-
-User-agent: heritrix/2
-Disallow: /
-
-User-agent: heritrix/3
-Disallow: /
-
-User-agent: heritrix/4
-Disallow: /
-
-User-agent: heritrix/1.14.4
-Disallow: /
-
-User-agent: heritrix/3.1.0
-Disallow: /
-
-User-agent: heritrix/3.3.0
-Disallow: /
-
-User-agent: heritrix/4.0.0
-Disallow: /
-
-# ============================================================
-# ALLOW: GOOGLE (ALL CRAWLERS)
-# ============================================================
-
+# Search engines (explicit allow)
 User-agent: Googlebot
 Allow: /
-
-User-agent: Googlebot-Image
-Allow: /
-
-User-agent: Googlebot-Video
-Allow: /
-
-User-agent: Googlebot-News
-Allow: /
-
-User-agent: AdsBot-Google
-Allow: /
-
-User-agent: AdsBot-Google-Mobile
-Allow: /
-
-User-agent: Google-InspectionTool
-Allow: /
-
-# ============================================================
-# ALLOW: BING / MICROSOFT
-# ============================================================
-
 User-agent: Bingbot
 Allow: /
-
-User-agent: bingbot
-Allow: /
-
-User-agent: msnbot
-Allow: /
-
-User-agent: msnbot-media
-Allow: /
-
-User-agent: adidxbot
-Allow: /
-
-User-agent: BingPreview
-Allow: /
-
-# ============================================================
-# ALLOW: DUCKDUCKGO
-# ============================================================
-
 User-agent: DuckDuckBot
 Allow: /
-
-User-agent: duckduckbot
+User-agent: Applebot
 Allow: /
-
-User-agent: DuckDuckGo-Favicons-Bot
-Allow: /
-
-# ============================================================
-# ALLOW: YANDEX
-# ============================================================
-
-User-agent: Yandex
-Allow: /
-
 User-agent: YandexBot
 Allow: /
 
-User-agent: YandexImages
-Allow: /
-
-User-agent: YandexVideo
-Allow: /
-
-User-agent: YandexNews
-Allow: /
-
-User-agent: YandexPagechecker
-Allow: /
-
-# ============================================================
-# ALLOW: BAIDU
-# ============================================================
-
-User-agent: Baiduspider
-Allow: /
-
-User-agent: Baiduspider-image
-Allow: /
-
-User-agent: Baiduspider-video
-Allow: /
-
-User-agent: Baiduspider-news
-Allow: /
-
-# ============================================================
-# ALLOW: OTHER SEARCH ENGINES
-# ============================================================
-
-User-agent: Sogou web spider
-Allow: /
-
-User-agent: Sogou Spider
-Allow: /
-
-User-agent: Yahoo! Slurp
-Allow: /
-
-User-agent: Slurp
-Allow: /
-
-User-agent: NaverBot
-Allow: /
-
-User-agent: Yeti
-Allow: /
-
-User-agent: ia_archiver
-Disallow: /
-
-User-agent: Seznam robot
-Allow: /
-
-User-agent: SeznamBot
-Allow: /
-
-# ============================================================
-# ALLOW: SOCIAL MEDIA CRAWLERS
-# ============================================================
-
-User-agent: facebookexternalhit
-Allow: /
-
-User-agent: facebot
-Allow: /
-
-User-agent: Twitterbot
-Allow: /
-
-User-agent: LinkedInBot
-Allow: /
-
-User-agent: Slackbot
-Allow: /
-
-User-agent: WhatsApp
-Allow: /
-
-User-agent: Discordbot
-Allow: /
-
-User-agent: TelegramBot
-Allow: /
-
-User-agent: Applebot
-Allow: /
-
-# ============================================================
-# ALLOW: OPENAI AND CHATGPT
-# ============================================================
-
+# AI and LLM crawlers (explicit allow for discovery and citation)
 User-agent: GPTBot
 Allow: /
-
-User-agent: gptbot
-Allow: /
-
-User-agent: ChatGPT-User
-Allow: /
-
 User-agent: OAI-SearchBot
 Allow: /
-
-User-agent: oai-searchbot
+User-agent: ChatGPT-User
 Allow: /
-
-# ============================================================
-# ALLOW: ANTHROPIC AND CLAUDE
-# ============================================================
-
 User-agent: ClaudeBot
 Allow: /
-
-User-agent: claudebot
+User-agent: Claude-Web
 Allow: /
-
-User-agent: Claude-User
-Allow: /
-
 User-agent: anthropic-ai
 Allow: /
-
-# ============================================================
-# ALLOW: GOOGLE AI (GEMINI, BARD, GOOGLE-EXTENDED)
-# ============================================================
-
 User-agent: Google-Extended
 Allow: /
-
-User-agent: Gemini-Bot
-Allow: /
-
-User-agent: GoogleOther
-Allow: /
-
-# ============================================================
-# ALLOW: PERPLEXITY AI
-# ============================================================
-
 User-agent: PerplexityBot
 Allow: /
-
-User-agent: perplexitybot
-Allow: /
-
-User-agent: Perplexity-User
-Allow: /
-
-# ============================================================
-# ALLOW: APPLE (SIRI, SPOTLIGHT, AI SEARCH)
-# ============================================================
-
 User-agent: Applebot-Extended
 Allow: /
-
-User-agent: applebot-extended
+User-agent: Bytespider
 Allow: /
-
-# ============================================================
-# ALLOW: META AI
-# ============================================================
-
+User-agent: CCBot
+Allow: /
+User-agent: cohere-ai
+Allow: /
 User-agent: Meta-ExternalAgent
 Allow: /
-
-User-agent: Meta-ExternalFetcher
-Allow: /
-
-User-agent: meta-externalagent
-Allow: /
-
-# ============================================================
-# ALLOW: AMAZON AND ALEXA
-# ============================================================
-
 User-agent: Amazonbot
 Allow: /
 
-User-agent: amazonbot
-Allow: /
-
-User-agent: alexa
-Allow: /
-
-# ============================================================
-# ALLOW: BYTEDANCE AND TIKTOK
-# ============================================================
-
-User-agent: Bytespider
-Allow: /
-
-User-agent: bytespider
-Allow: /
-
-# ============================================================
-# ALLOW: COMMON CRAWL
-# ============================================================
-
-User-agent: CCBot
-Allow: /
-
-User-agent: ccbot
-Allow: /
-
-# ============================================================
-# ALLOW: MISTRAL AI
-# ============================================================
-
-User-agent: MistralAI-User
-Allow: /
-
-User-agent: mistralai-user
-Allow: /
-
-# ============================================================
-# ALLOW: COHERE
-# ============================================================
-
-User-agent: cohere-ai
-Allow: /
-
-User-agent: CohereBot
-Allow: /
-
-# ============================================================
-# ALLOW: YOU.COM
-# ============================================================
-
-User-agent: YouBot
-Allow: /
-
-User-agent: youbot
-Allow: /
-
-# ============================================================
-# ALLOW: BRAVE SEARCH
-# ============================================================
-
-User-agent: Brave
-Allow: /
-
-# ============================================================
-# ALLOW: DIFFBOT
-# ============================================================
-
-User-agent: Diffbot
-Allow: /
-
-# ============================================================
-# ALLOW: SEO TOOLS
-# ============================================================
-
-User-agent: Screaming Frog SEO Spider
-Allow: /
-
-User-agent: AhrefsBot
-Allow: /
-
-User-agent: SemrushBot
-Allow: /
-
-User-agent: MJ12bot
-Allow: /
-
-# ============================================================
-# CATCH-ALL: ALLOW ALL OTHER CRAWLERS
-# ============================================================
-
-User-agent: *
-Allow: /
-Disallow: /cdn-cgi/
-Disallow: /private/
-Disallow: /*.json$
-
-# ============================================================
-# SITEMAPS
-# ============================================================
+# Archival crawlers (explicit block)
+User-agent: ia_archiver
+Disallow: /
+User-agent: archive.org_bot
+Disallow: /
+User-agent: Wayback
+Disallow: /
+User-agent: heritrix
+Disallow: /
 
 Sitemap: https://unlittered.com/sitemap.xml
