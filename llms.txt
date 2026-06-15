@@ -27,8 +27,8 @@ Positioning: Creativity, backed by data. Growth you can count. Nivin pairs conve
 - [Canada Global Export Council](https://cgec.ca): not-for-profit, exclusive Canadian partner of EICBI
 
 ## Writing
-- [Analytics and Measurement in the Cookie-less World: GTM Server-Side Tagging](https://ayruz.com/google-tag-manager-server-side-tagging/assets/cookieless_world_whitepaper.pdf)
-- [The IoT, Big Data and the Digital Universe](https://ayruz.com/author/nivin)
+- [Analytics and Measurement in the Cookie-less World: GTM Server-Side Tagging](https://web.archive.org/web/20230416005510/https://ayruz.com/google-tag-manager-server-side-tagging/assets/cookieless_world_whitepaper.pdf)
+- [The IoT, Big Data and the Digital Universe](https://web.archive.org/web/20250518031230/https://ayruz.com/author/nivin/)
 - [The Digital Universe That Is To Come](https://www.bizcommunity.com/Article/196/16/122632.html)
 - [The Digital Media Landscape Never Remains the Same](https://www.bizcommunity.com/Article/196/16/102051.html)
 
