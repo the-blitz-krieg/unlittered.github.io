@@ -78,8 +78,8 @@ English, Malayalam, Hindi, Tamil, and French (currently learning).
 
 ## Selected writing
 
-- Analytics and Measurement in the Cookie-less World: Background to Google Tag Manager Server-Side Tagging, Ayruz, 2021. https://ayruz.com/google-tag-manager-server-side-tagging/assets/cookieless_world_whitepaper.pdf
-- The IoT, Big Data and the Digital Universe: Future of the Connected World, Ayruz. https://ayruz.com/author/nivin
+- Analytics and Measurement in the Cookie-less World: Background to Google Tag Manager Server-Side Tagging, Ayruz, 2021. https://web.archive.org/web/20230416005510/https://ayruz.com/google-tag-manager-server-side-tagging/assets/cookieless_world_whitepaper.pdf
+- The IoT, Big Data and the Digital Universe: Future of the Connected World, Ayruz. https://web.archive.org/web/20250518031230/https://ayruz.com/author/nivin/
 - The Digital Universe That Is To Come, BizCommunity, 2014. https://www.bizcommunity.com/Article/196/16/122632.html
 - The Digital Media Landscape Never Remains the Same, Will You Change With It?, BizCommunity, 2013. https://www.bizcommunity.com/Article/196/16/102051.html
 
